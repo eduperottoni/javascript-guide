@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+}
+button{
+    width:200px;
+    height: 100px;
+    margin: 20px auto;
+    font-weight: 700;
+}
+button.ligth{
+    background-color: #efefef;
+    color:#393939;
+}
+button.dark{
+    background-color: #393939;
+    color:#efefef;
+}

@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+#example{
+    margin:20px auto;
+    border:2px solid #000;;
+    width: 200px;
+    height: 200px;
+}
+.azul{
+    background-color: #0000ff;
+}
+.vermelho{
+    background-color:#ff0000;
+}
+.verde{
+    background-color: #00ff00;
+}

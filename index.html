@@ -30,7 +30,119 @@
         </li>
     </ul>
 
-    <h2>How to use de browser console</h2>
-    
+    <h2>How to use the browser console</h2>
+    <ul>
+        <li>In the browser, the DevTools has his own JavaScript imbedded console</li>
+    </ul>
+
+    <h2>How to show an output with JS</h2>
+    <ul>
+        <li>Catch the element and pass the message with innerHTML</li>
+        <li>window.alert</li>
+        <li>document.write</li>
+        <li>Console.log</li>
+    </ul>
+
+    <h2>VARIABLES</h2>
+    <ul>
+        <li>To create a variable and assign a value to it, we can use:
+            <ul>
+                <li>var name = "Eduardo"</li>
+                <li>var x = 10</li>
+            </ul>
+        </li>
+        <li>The variable can receive an operation as value
+            <ul>
+                <li>var nomeCompleto = nome + sobrenome</li>
+                <li>var soma = number1 + number2</li>
+            </ul>
+        </li>
+        <li>The variables are declared using three possible reserved words: const, let or var
+            <ul>
+                <li>var is used when we neded to hoisting, that is, this variable is transfered to the global scope of the script and can be acessed anywhere.
+                    <ul>
+                        <li>var nome = 'Eduardo'</li>
+                    </ul>
+                </li>
+                <li>var can be used more than once declaring the same variable.</li>
+            </ul>
+            <ul>
+                <li>Unlike var, let is used to give the local scope permission to the variable.
+                    <ul>
+                        <li>let nome = 'Eduardo'</li>
+                    </ul>
+                </li>
+                <li>The use of let can help with memory saving, cause it works only during the scope lecture</li>
+                <li>let can't be used to declare the same variable during the code</li>
+            </ul>
+            <ul>
+                <li>const is used when the variable is not variable during the code.
+                    <ul>
+                        <li>const nome = 'Eduardo'</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="./variables.js">Variables</a></li>
+    </ul>
+
+    <h2>Conditionals</h2>
+    <ul>
+        <li><a href="./conditionals.js">Condicionals</a></li>
+    </ul>
+
+    <h2>DOM</h2>
+    <ul>
+        <li>Document Object Model
+            <ul>
+                <li>DOM is a reference of each element that is part of the page</li>
+            </ul>
+        </li>
+        <li>
+            How to select DOM elements
+            <ul>
+                <li>getElementById</li>
+                <li>getElementsByClassName
+                    <ul>
+                        <li>This comands returns an HTML Collection of elements</li>
+                    </ul>
+                </li>
+                <li>getElementsByTagName</li>
+                <ul>
+                    <li>This comands returns an HTML Collection of elements</li>
+                </ul>
+                <li>getElementsByName</li>
+                <li>querySelector</li>
+                <li>querySelectorAll
+                    <ul>
+                        <li>This comand returns an NodeList wich contains the elements</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="./DomSelection.js"></a></li>
+        <li><a href="./exercise01/exercise01.html">Execise01</a></li>
+    </ul>
+
+    <h2>ClassList Property</h2>
+    <ul>
+        <li>Shows the class properties of the element</li>
+        <li>The most used methods in this property are:
+            <ul>
+                <li>add</li>
+                <li>remove</li>
+                <li>exists</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>Datatypes in JS</h2>
+    <ul>
+        <li>String</li>
+        <li>Number</li>
+        <li>Boolean</li>
+        <li>Undefined</li>
+    </ul>
+
 </body>
 </html>
