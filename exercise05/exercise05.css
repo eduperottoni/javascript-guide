@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Open Sans', sans-serif;
+}
+
+h1{
+    text-align:center;
+    margin: 20px 0;
+}
+
+div.key{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    margin-top: 200px;
+}
+
+div.key span{
+    padding: 10px;
+    margin-bottom:10px;
+    background-color: darkgray;
+    border-radius:10px;
+    font-size:0.75rem;
+}
+
+div.key span strong{
+    font-weight: 600;
+}
+
+div.key span:first-child{
+    padding: 30px;
+    font-size:3rem;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
